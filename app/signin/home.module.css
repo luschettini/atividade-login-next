@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../../public/image-aura.png);
+    background-size: cover;
+    
+}
+
+.login h2 {
+    font-size: 2rem;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.login {
+    height: 82vh;
+    width: 100vh;
+    border-radius: 16px;
+    background: hsla(338, 99%, 73%, 0.21);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.login p {
+    font-size: 1.1rem;
+}
+
+.link {
+    color: #0070f3;
+    border: 0px;
+    background: none;
+    font-size: 1.1rem;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 5rem;
+    height: 5rem;
+    gap: 2rem;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(154, 141, 149, 0.238);
+    border-radius: 100%;
+}
+
+.media:hover {
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.1s;
+}
+.media img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.button {
+    font-size: 1.2rem;
+    width: 31rem;
+    height: 3.0rem;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: #edb0d1;
+}
+
+.button:hover {
+    transform: scale(105%);
+    transition: all 0.3s ease-in;
+}
+
+.button text {
+    font-size: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 0.5rem;
+}
