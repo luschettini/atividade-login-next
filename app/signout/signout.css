@@ -125,13 +125,18 @@
     transform: scale(105%);
     transition: all 0.3 ease-in;
 }
+@media (max-width: 1200px) {
+    .login {
+        width: 80vh;
+    }
+}
 
 @media (max-width: 1024px) {
     .login {
-        width: 80%;
+        width: 70vh;
     }
     .button {
-        width: 70%;
+        width: 25rem;
     }
 }
 
@@ -141,6 +146,9 @@
     }
     .button {
         width: 85%;
+    }
+    .input {
+        width: 90%;
     }
 }
 
@@ -159,6 +167,9 @@
         font-size: 0.85rem;
     }
     .button {
+        width: 100%;
+    }
+    .input {
         width: 100%;
     }
 }
