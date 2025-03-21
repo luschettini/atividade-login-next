@@ -1,0 +1,164 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../../public/background.png);
+    background-size: cover;
+    
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.login p {
+    font-size: 1.1rem;
+}
+
+.login h2 {
+    font-size: 1.8rem;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.login {
+    height: 85vh;
+    width: 95vh;
+    border-radius: 16px;
+    background: hsla(338, 99%, 73%, 0.21);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.link {
+    color: #0070f3;
+    border: 0px;
+    background: none;
+    font-size: 1.1rem;
+}
+
+.connect {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 5rem;
+    gap: 1rem;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(154, 141, 149, 0.238);
+    border-radius: 100%;
+    margin-top: 1rem;
+}
+
+.media:hover {
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.1s;
+}
+.media img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.button {
+    font-size: 1rem;
+    width: 30rem;
+    height: 2.8rem;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: #edb0d1;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    transform: scale(105%);
+    transition: all 0.3s ease-in;
+}
+
+.button text {
+    font-size: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 0.5rem;
+}
+.input {
+    margin: 6px 0;
+    width: 75vh;
+    height: 5vh;
+    background-color: #fcf8f2;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+
+.input:hover {
+    transform: scale(105%);
+    transition: all 0.3 ease-in;
+}
+
+@media (max-width: 1024px) {
+    .login {
+        width: 80%;
+    }
+    .button {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .login {
+        width: 90%;
+    }
+    .button {
+        width: 85%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    .login {
+        width: 100%;
+        padding: 10px;
+    }
+    .login h2 {
+        font-size: 1.6rem;
+    }
+    .login p, .link {
+        font-size: 0.85rem;
+    }
+    .button {
+        width: 100%;
+    }
+}

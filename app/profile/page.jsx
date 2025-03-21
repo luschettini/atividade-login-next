@@ -10,9 +10,10 @@ export default function Profile() {
     <div className="container">
             <div className="profile">
             <div className="image">
-                <img src="/photo-profile.png"  alt="Profile" />
+                <img src="/author.png"  alt="Profile" />
                 <p>Luiza Nicoluci Schettini</p>
             </div>
+            
             <Card title={"Descrição"} text={"Olá, meu nome é Luiza e sou uma desenvolvedora do curso de Desenvolvimento de Sistemas no SENAI;"} />
             <Card title={"Experiência"} text={"Desenvolvedora Full Stack;"} />
             <Card title={"Hobbies"} text={"No tempo livre adoro maratonar séries, brincar com minha sobrinha e sair com meus amigos."} />
@@ -22,7 +23,7 @@ export default function Profile() {
                             <img src="/google.png" alt="Google" />
                         </div>
                         <div className="media">
-                            <img src="/firefoxx.png" alt="Firefox" />
+                            <img src="/firefox.png" alt="Firefox" />
                         </div>
                         <div className="media">
                             <img src="/apple.png" alt="Apple" />

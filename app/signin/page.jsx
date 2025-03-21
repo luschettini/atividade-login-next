@@ -13,13 +13,14 @@ export default function Home() {
             <Input type="text" text="Username or Email" />
             <Input id="password" type="password" text="Password" />
             <button className={style.button} onClick={() => router.push("/profile")}>Login</button>
+    
             <p>Connect with</p>
                 <div className={style.socialmedia}>
                     <div className={style.media}>
                         <img src="/google.png"/>
                     </div>
                     <div className={style.media}>
-                        <img src="/firefoxx.png"/>
+                        <img src="/firefox.png"/>
                     </div>
                     <div className={style.media}>
                         <img src="/apple.png"/>
