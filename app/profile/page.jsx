@@ -20,16 +20,17 @@ export default function Profile() {
             <Card title={"Habilidades"} text={
                     <div className="socialmedia">
                         <div className="media">
-                            <img src="/google.png" alt="Google" />
+                            <img src="/css.png" alt="CSS" />
                         </div>
                         <div className="media">
-                            <img src="/firefox.png" alt="Firefox" />
+                            <img src="/html.png" alt="html" />
                         </div>
                         <div className="media">
-                            <img src="/apple.png" alt="Apple" />
+                            <img src="/react.png" alt="react" />
                         </div>
                     </div>
-                } />
+                }
+                />
             </div>
         </div>
     );

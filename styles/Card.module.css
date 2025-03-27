@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    height: 16%;
+    height: 18%;
     width: 85%;
     border-radius: 12px;
     word-spacing: 0.25rem;
@@ -14,15 +14,15 @@
 
 .card h2 {
     color: rgb(0, 0, 0);
-    font-size: 1.3rem;
-    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
     font-weight: bold;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .card p {
     color: rgb(0, 0, 0);
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     max-width: 85%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
